@@ -1,11 +1,11 @@
 task: detect
 mode: train
-model: ./model/yolov8l.pt
+model: runs\detect\train4\weights\last.pt
 data: ./datasets/yolo-bdd10k/dataset.yaml
 epochs: 80
 time: null
 patience: 0
-batch: -1
+batch: 5
 imgsz: 640
 save: true
 save_period: -1
@@ -76,7 +76,7 @@ momentum: 0.937
 weight_decay: 0.0005
 warmup_epochs: 3.0
 warmup_momentum: 0.8
-warmup_bias_lr: 0.1
+warmup_bias_lr: 0.0
 box: 7.5
 cls: 0.5
 dfl: 1.5
@@ -102,4 +102,4 @@ erasing: 0.5
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\detect\train6
+save_dir: runs\detect\train4
