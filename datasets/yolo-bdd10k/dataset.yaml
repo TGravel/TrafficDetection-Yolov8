@@ -1,0 +1,18 @@
+path: ./yolo-bdd10k/
+train: images/train
+val: images/val
+
+names:
+  0: person
+  1: rider
+  2: car
+  3: bus
+  4: truck
+  5: bike
+  6: motor
+  7: tl_green
+  8: tl_red
+  9: tl_yellow
+  10: tl_none
+  11: traffic sign
+  12: train
