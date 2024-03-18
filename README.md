@@ -19,6 +19,8 @@ If you use a PC with a NVDIA graphics card
 
 - open Anaconda Prompt.
 - go to this github directory (requirements.txt)
+- forge channels `conda config --append channels conda-forge`
+- create new environment (if CUDA is installed): `conda create --name iav_assignment1 --file requirements.txt` # TODO
 - create new environment (if CUDA is installed): `conda create -n iav_assignment1 python>=3.7 pytorch-cuda=12.1 --file requirements.txt -c pytorch -c nvidia -c conda-forge -y`
 - or for CPU only installation: `conda create -n iav_assignment1 python>=3.7 --file requirements.txt -c pytorch -c conda-forge -y`
 - this may take some time until all the packages are downloaded and installed
