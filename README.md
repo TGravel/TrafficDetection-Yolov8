@@ -21,6 +21,7 @@ open Anaconda Prompt:
 ### Source:
 - bdd100k (https://www.vis.xyz/bdd100k/)
 - yolov8 (https://github.com/ultralytics/ultralytics)
+- yolo label conversion (https://github.com/williamhyin/yolov5s_bdd100k/blob/master/Bdd_preprocessing.ipynb)
 
 ### Contact
 - if there is any problem running this code, please contact: Nico.hanner@gmx.at
