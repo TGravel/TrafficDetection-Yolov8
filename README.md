@@ -8,12 +8,23 @@ Training a Yolov8 Model on the BDD-100K (10K) Detection Dataset.
 - ultralytics>=8.1.29
 - albumentations>=1.4.1
 - torchvision>=10.2.0
+- matplotlib
 
 If u use a PC with a NVDIA graphics card 
-- install NVDIA Cuda>=1.21
+- install NVDIA Cuda>=12.1
 
-open Anaconda Prompt:
-- install environment.yml
+#### Anaconda Installation
+
+- open Anaconda Prompt.
+- go to this github directory (requirements.txt)
+- create new environment (if CUDA is installed): `conda create -n iav_assignment1 python>=3.7 pytorch-cuda=12.1 --file requirements.txt -c pytorch -c nvidia -y`
+- or for CPU only installation: `conda create -n iav_assignment1 python>=3.7 --file requirements.txt -c pytorch -y`
+- this may take some time until all the packages are downloaded and installed
+- if everything was installed successfully you should be able to start the notebook using `jupyter notebook` and see your graphics card (cpu) as used device.
+- training the model and can be enabled via the constants defined in the notebook
+
+#### Remove environment
+- Use `conda remove -n iav_assignment1 --all` to delete the environment after use.
 
 ### Run:
 - just run the jupyter notebook
