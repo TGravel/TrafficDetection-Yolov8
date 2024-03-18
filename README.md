@@ -8,27 +8,31 @@ Training a Yolov8 Model on the BDD-100K (10K) Detection Dataset.
 - ultralytics>=8.1.29
 - albumentations>=1.4.1
 - torchvision>=10.2.0
+- pytorch
 - matplotlib
+- tensorboard
 
-If u use a PC with a NVDIA graphics card 
+If you use a PC with a NVDIA graphics card 
 - install NVDIA Cuda>=12.1
 
 #### Anaconda Installation
 
 - open Anaconda Prompt.
 - go to this github directory (requirements.txt)
-- create new environment (if CUDA is installed): `conda create -n iav_assignment1 python>=3.7 pytorch-cuda=12.1 --file requirements.txt -c pytorch -c nvidia -y`
-- or for CPU only installation: `conda create -n iav_assignment1 python>=3.7 --file requirements.txt -c pytorch -y`
+- create new environment (if CUDA is installed): `conda create -n iav_assignment1 python>=3.7 pytorch-cuda=12.1 --file requirements.txt -c pytorch -c nvidia -c conda-forge -y`
+- or for CPU only installation: `conda create -n iav_assignment1 python>=3.7 --file requirements.txt -c pytorch -c conda-forge -y`
 - this may take some time until all the packages are downloaded and installed
 - run: `conda activate iav_assignment1` after the installation is complete
 - if everything was installed successfully you should be able to start the notebook using `jupyter notebook` and see your graphics card (cpu) as used device.
+- set notebook as trusted to view videos!
 - training the model and can be enabled via the constants defined in the notebook
 
 #### Remove environment
 - Use `conda remove -n iav_assignment1 --all` to delete the environment after use.
 
 ### Run:
-- just run the jupyter notebook
+- set constants to decide what parts of the notebook you want to execute
+- run the jupyter notebook
 
 ### Source:
 - bdd100k (https://www.vis.xyz/bdd100k/)
