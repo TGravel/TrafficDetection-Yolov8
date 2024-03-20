@@ -1,5 +1,10 @@
 # TrafficDetection-Yolov8
-Training a Yolov8 Model on the BDD-100K (10K) Detection Dataset.
+Transfer-learning a YoloV8 Model on the BDD-100K (10K) Detection Dataset.
+
+Default YoloV8l Model | Our finetuned YoloV8l Model
+:-: | :-:
+<video src=https://github.com/TGravel/TrafficDetection-Yolov8/assets/36968003/36782b2c-198a-4e61-8845-592958277c91> | <video src=https://github.com/TGravel/TrafficDetection-Yolov8/assets/36968003/c6aa17dc-2902-4bed-ac2c-f9e5928c65d0>
+
 
 ## Startup Guide
 ### Requirements
