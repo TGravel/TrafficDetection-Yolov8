@@ -1,5 +1,5 @@
 # TrafficDetection-Yolov8
-Transfer-learning a YoloV8 Model on the BDD-100K (10K) Detection Dataset.
+Transfer-learning a YoloV8 large Model on the BDD-100K (10K) vehicle and traffic related detection dataset.
 
 Default YoloV8l Model | Our finetuned YoloV8l Model
 :-: | :-:
